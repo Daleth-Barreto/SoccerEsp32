@@ -1,0 +1,184 @@
+{
+  "uuid": "2d1114aa87305510be2c15a1e4b192ff",
+  "path": "Offline/Soccer%20Esp32",
+  "name": "Soccer Esp32",
+  "content": "",
+  "created_at": "2025-09-30 15:11:12",
+  "updated_at": "2025-12-12 13:18:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b23004a552d33654514cdcfdc1d8ffec",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "23e20b0baf2d4d82aed7b46ff8c22c6c": 1,
+        "eab07a6df93c4f97b1ba4d34913fbfe9": 5,
+        "1ad2c87ac3a840209272375e741d2a11": 1,
+        "7248bfce8d09403d857b5aa62396552e": 1,
+        "826564f851584d97a6b1987d176c7e38": 1,
+        "8ff340ec18954025b5bd53a58b612317": 1,
+        "207b990c3cba46f6a73b6427d1d7427a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 1X4P COPY",
+          1,
+          "HEADER - HEADER-FEMALE-2.54_1X4",
+          "ARRANCADOR1",
+          {
+            "Contributor": "trananhkha2406",
+            "Supplier Part": "",
+            "Supplier": "Sparkfun",
+            "spiceSymbolName": "HEADER 1X4P COPY",
+            "Manufacturer Part": "",
+            "puuid": "498e3e97e7d44dc197fd5d5b817324af",
+            "uuid": "8ff340ec18954025b5bd53a58b612317"
+          }
+        ],
+        [
+          "1N4007",
+          1,
+          "DIODO1N4004",
+          "DIODO1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "adriancp",
+            "spiceSymbolName": "1N4007",
+            "puuid": "947d02c344524f088ca67970b3541d0f",
+            "uuid": "207b990c3cba46f6a73b6427d1d7427a"
+          }
+        ],
+        [
+          "CONNECTOR 2 PINS",
+          5,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X11_P_2.54MM",
+          "M1,M2,M3,M4,VCC1",
+          {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "papisdieng22",
+            "spiceSymbolName": "HEADER PAD 2X",
+            "puuid": "afdbe893c2fc49bdb4fbc325f6432ef4",
+            "uuid": "eab07a6df93c4f97b1ba4d34913fbfe9"
+          }
+        ],
+        [
+          "TB6612FNG",
+          1,
+          "TB6612FNG",
+          "PUENTE-H1",
+          {
+            "Contributor": "3D Mr.",
+            "spiceSymbolName": "TB6612FNG",
+            "Manufacturer Part": "",
+            "puuid": "82f947e1502a4c1bace3b123b384f88b",
+            "uuid": "826564f851584d97a6b1987d176c7e38"
+          }
+        ],
+        [
+          "SWITCH-SPST",
+          1,
+          "SWITCH-SPST",
+          "SWITCHON1",
+          {
+            "sourceId": "ceKgMGAuL",
+            "timeStamp": "1459755659",
+            "Contributor": "Sascha Dahten",
+            "spiceSymbolName": "SWITCH-SPST",
+            "Manufacturer Part": "",
+            "puuid": "baf990df10a344f1a83ec3b7690aa7e4",
+            "uuid": "7248bfce8d09403d857b5aa62396552e"
+          }
+        ],
+        [
+          "ESP32WRoom32D",
+          1,
+          "ESP32WROOM32D",
+          "U1",
+          {
+            "catid": "20",
+            "link": "",
+            "Contributor": "saam.ruiz",
+            "Manufacturer Part": "ESp32 38pin",
+            "Supplier Part": "",
+            "Supplier": "",
+            "sim": "true",
+            "spiceSymbolName": "ESP32WRoom32D",
+            "puuid": "2bd7e5767c5944c1a02138584fbcc613",
+            "uuid": "23e20b0baf2d4d82aed7b46ff8c22c6c"
+          }
+        ],
+        [
+          "Regulador",
+          1,
+          "REGULADOR",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "miguelcrego",
+            "spiceSymbolName": "Regulador",
+            "puuid": "cf3f73f03be14c2d9584f14ee003d8f1",
+            "uuid": "1ad2c87ac3a840209272375e741d2a11"
+          }
+        ]
+      ],
+      "updateTime": 1765565582,
+      "createTime": 1759263072,
+      "histories": [],
+      "created_at": "2025-09-30 15:11:12",
+      "updated_at": "2025-12-12 12:53:02"
+    },
+    {
+      "uuid": "5d44b921ce5ecacfe9343ac474627ae9",
+      "puuid": "2d1114aa87305510be2c15a1e4b192ff",
+      "title": "PCB_Soccer Esp32",
+      "filename": "PCB_Soccer Esp32.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "498e3e97e7d44dc197fd5d5b817324af": 1,
+        "947d02c344524f088ca67970b3541d0f": 1,
+        "afdbe893c2fc49bdb4fbc325f6432ef4": 5,
+        "82f947e1502a4c1bace3b123b384f88b": 1,
+        "baf990df10a344f1a83ec3b7690aa7e4": 1,
+        "2bd7e5767c5944c1a02138584fbcc613": 1,
+        "cf3f73f03be14c2d9584f14ee003d8f1": 1
+      },
+      "BOM": [],
+      "updateTime": 1765567122,
+      "createTime": 1765566335,
+      "histories": [],
+      "created_at": "2025-12-12 13:05:35",
+      "updated_at": "2025-12-12 13:18:42"
+    }
+  ],
+  "sort": [],
+  "title": "Soccer Esp32",
+  "foldername": "Soccer Esp32",
+  "schfilename": "Soccer Esp32.json",
+  "schfilemtime": 1765565582906
+}
